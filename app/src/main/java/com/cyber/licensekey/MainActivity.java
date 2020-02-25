@@ -42,10 +42,8 @@ public class MainActivity extends AppCompatActivity {
                     licenseStatus.setText("Invalid!");
                     Log.e("License", "Fail");
                 }
-
             }
         });
-
     }
 
     public void launchLicensedctivity() {
